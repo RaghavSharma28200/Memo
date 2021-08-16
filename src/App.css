@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding:0%
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: rgb(0,36,19);
+  background: linear-gradient(90deg, rgba(0,36,19,1) 0%, rgba(118,111,10,1) 0%, rgba(17,121,9,1) 0%, rgba(68,106,73,1) 0%, rgba(54,111,12,1) 3%, rgba(15,130,31,1) 9%, rgba(15,133,38,1) 23%, rgba(0,254,255,1) 100%);
 }
+.delete-btn{
+  background: transparent;
+  border: none;
+  float: right;
+  font-size: 29px;
+  margin-right: 9px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.delete-btn:hover{
+color: red;
 }
+.container{
+text-align: center;
+margin-top: 6%
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ul-parent{
+list-style: none;
+}
+.li-child{
+  font-size: 30px;
+  margin-top: 4px;
+  background-color:dodgerblue;
+  border-radius: 10px;
+  font-family: 'Exo', sans-serif;
+}
+.li-child:hover{
+  background-color:rgb(110, 177, 245);
+}
+.inp-field{
+  width: 46%;
+  height: 36px;
+  border-radius: 6px;
+  border:none;
+  background-color:aquamarine;
+  outline: none;
+  padding-left: 18px;
+  font-size: 16px;
+ 
+}
+.inp-field:active{
+  background-color:aquamarine;
+}
+.add-btn{
+  background-color: rgb(49 251 137);
+  font-size: 17px;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 3px;
+  color: azure;
+  outline: none;
+}
+.add-btn:hover{
+  text-decoration: underline;
+}
+.heading-todo{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading-todo:hover{
+text-decoration: underline;
+}
+.ul-div{
+  padding:0px 36px;
 }
